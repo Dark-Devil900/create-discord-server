@@ -1,45 +1,136 @@
 {
-    "server": {
-        "name": "My Server",
-        "icon": "./images/icon.png"
+  "name": "Dust2 Deathmatch | Counter-Strike 1.6",
+  "roles": [
+    {
+      "name": "🎖️ Admin",
+      "permissions": 2147483647,
+      "mentionable": false,
+      "hoist": true,
+      "color": "#ff0000"
     },
-    "channels": [
-        "hello",
+    {
+      "name": "🛡️ Mod",
+      "permissions": 268443651,
+      "mentionable": false,
+      "hoist": true,
+      "color": "#3498db"
+    },
+    {
+      "name": "💥 Pro Gamer",
+      "permissions": 104324161,
+      "mentionable": true,
+      "hoist": true,
+      "color": "#f1c40f"
+    },
+    {
+      "name": "🎮 Gamer",
+      "permissions": 104324161,
+      "mentionable": false,
+      "hoist": true,
+      "color": "#2ecc71"
+    },
+    {
+      "name": "👤 Newbie",
+      "permissions": 104193025,
+      "mentionable": true,
+      "hoist": true,
+      "color": "#95a5a6"
+    }
+  ],
+  "channels": [
+    {
+      "name": "🚪 Добре дошли в Dust2!",
+      "type": "category",
+      "channels": [
         {
-            "name": "random",
-            "type": "text"
+          "name": "🏆-правила-и-важна-информация",
+          "type": "text"
         },
         {
-            "name": "talk",
-            "type": "voice"
+          "name": "👋-запознай-се-с-екипа",
+          "type": "text"
+        },
+        {
+          "name": "📢-съобщения-и-събития",
+          "type": "text"
         }
-    ],
-    "emojis": [
+      ]
+    },
+    {
+      "name": "🎮 Dust2 Community Zone",
+      "type": "category",
+      "channels": [
         {
-            "name": "crying",
-            "image": "./images/emojis/crying.png"
+          "name": "💬-общ-чат",
+          "type": "text"
         },
         {
-            "name": "happy",
-            "image": "./images/emojis/happy.png"
+          "name": "🗨-cs-дискусии",
+          "type": "text"
         },
         {
-            "name": "poo",
-            "image": "./images/emojis/poo.png"
+          "name": "😂-геймърски-мемета",
+          "type": "text"
         },
         {
-            "name": "sad",
-            "image": "./images/emojis/sad.png"
+          "name": "📹-клипове-и-снимки",
+          "type": "text"
         }
-    ],
-    "roles": [
+      ]
+    },
+    {
+      "name": "⚔️ Мачове и тактики",
+      "type": "category",
+      "channels": [
         {
-            "name": "Admin",
-            "color": "#ff0000"
+          "name": "🎯-търсене-на-тим",
+          "type": "text"
         },
         {
-            "name": "Moderator",
-            "color": "#00ff00"
+          "name": "🧠-тактики-и-стратегии",
+          "type": "text"
+        },
+        {
+          "name": "🏅-турнири-и-събития",
+          "type": "text"
         }
-    ]
+      ]
+    },
+    {
+      "name": "🎧 Гласови канали",
+      "type": "category",
+      "channels": [
+        {
+          "name": "🔊 Лоби | Chill Zone",
+          "type": "voice"
+        },
+        {
+          "name": "🔊 Team 1 | Tactics Ready",
+          "type": "voice"
+        },
+        {
+          "name": "🔊 Team 2 | Tactical Ops",
+          "type": "voice"
+        },
+        {
+          "name": "🔊 Deathmatch Battle Room",
+          "type": "voice"
+        }
+      ]
+    },
+    {
+      "name": "🛠️ Поддръжка и предложения",
+      "type": "category",
+      "channels": [
+        {
+          "name": "📞-техническа-помощ",
+          "type": "text"
+        },
+        {
+          "name": "💡-предложения",
+          "type": "text"
+        }
+      ]
+    }
+  ]
 }
